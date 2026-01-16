@@ -9,8 +9,8 @@
         "apiKey": "ollama"
       },
       "models": {
-        "codellama:34b-instruct": {
-          "name": "CodeLlama 34B"
+        "qwen2.5-coder:32b": {
+          "name": "Qwen 2.5 Coder 32B"
         }
       }
     }
