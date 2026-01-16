@@ -14,6 +14,13 @@
             "context": 32768,
             "output": 16384
           }
+        },
+        "qwen3-coder:30b-a3b-32k": {
+          "name": "Qwen3-Coder 30B A3B (32k ctx)",
+          "limit": {
+            "context": 32768,
+            "output": 16384
+          }
         }
       }
     }
