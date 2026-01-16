@@ -9,12 +9,12 @@
         "apiKey": "ollama"
       },
       "models": {
-        "llama3.1:8b-32k": {
-          "name": "Llama 3.1 8B (32k ctx)",
+        "qwen3:8b-32k": {
+          "name": "Qwen3 8B (32k ctx)",
           "tools": true
         },
-        "qwen2.5-coder:32b-32k": {
-          "name": "Qwen 2.5 Coder 32B (32k ctx)",
+        "qwen3:32b-32k": {
+          "name": "Qwen3 32B (32k ctx)",
           "tools": true
         }
       }
