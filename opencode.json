@@ -5,17 +5,15 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Ollama (GPU)",
       "options": {
-        "baseURL": "http://192.168.50.170:11434/v1",
-        "apiKey": "ollama"
+        "baseURL": "http://192.168.50.170:11434/v1"
       },
       "models": {
         "qwen3:8b-32k": {
           "name": "Qwen3 8B (32k ctx)",
-          "tools": true
-        },
-        "qwen3:32b-32k": {
-          "name": "Qwen3 32B (32k ctx)",
-          "tools": true
+          "limit": {
+            "context": 32768,
+            "output": 16384
+          }
         }
       }
     }
