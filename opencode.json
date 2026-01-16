@@ -9,8 +9,8 @@
         "apiKey": "ollama"
       },
       "models": {
-        "qwen2.5-coder:32b": {
-          "name": "Qwen 2.5 Coder 32B"
+        "qwen2.5-coder:32b-tools": {
+          "name": "Qwen 2.5 Coder 32B (Tools)"
         }
       }
     }
